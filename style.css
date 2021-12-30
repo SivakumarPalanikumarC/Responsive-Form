@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+  }
+  
+
+  nav{
+      background-image: url(./spriteimage.svg);
+      height: 40px;
+      width: 154px;
+      float: right;
+      background-position: -309px 43px;
+  }
+  .head{
+    height: 20px;
+  }
+  .header {
+    padding: 5px;
+    text-align: center;
+    
+    
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .h1 {
+    width:33.33%;
+    padding: 50px;
+    height: 100px;
+    text-align: center;
+    
+  }
+  .h2 {
+    width:33.33%;
+    padding: 50px;
+    height: 100px;
+    text-align: center;
+    
+  }
+  .h3{
+    width:33.33%;
+    padding: 50px;
+    height: 100px;
+    text-align: center;
+  
+  
+  }
+  .h4 {
+    padding: 50px;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+  }
+  .d4
+    {
+      padding: 50px;
+      text-align: center;
+      height: 100%;
+      flex: 100%;
+      background-color: #3399FF;
+    }
+  
+  
+  .content {
+    padding: 50px;
+    text-align: center;
+  
+   
+  }
+  @media screen and (max-width: 768px) {
+    .h1,
+    .h2,
+    .h3,
+    .h4 
+    {
+      flex: 100%;
+    }
+  }
+  @media screen and (max-width: 768px) and (min-width: 481px) {
+    .h1,
+    .h2,
+    .h3,
+    .h4
+    {
+      flex: 50%;
+    }
+  }
+  @media screen and (max-width: 480px)   {
+    .h1,
+    .h2,
+    .h3,
+    .h4
+     {
+      flex: 100%;
+    }
+  }
+  
+  
